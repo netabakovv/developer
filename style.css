@@ -1,0 +1,651 @@
+a {
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    background: #EEEFF1;
+}
+header {
+    width: 100%;
+    background: #eeeff1;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+}
+p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 26.25px;
+    color: #727272;
+}
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.logo {
+    font-family: 'Revalia';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #34547A;
+}
+
+.cont {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.miniMenu {
+    z-index: 1000;
+    display: none;
+    position: fixed;
+    right: 0px;
+    top: 5px;
+}
+
+.miniMenu a {
+    color: #727272;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 26.25px;
+    transition: 1s;
+}
+.miniMenu a:hover {
+    color: #34547A;
+}
+
+.miniMenu:hover {
+    cursor: pointer;
+}
+
+.miniMenu img{
+    margin-left: 130px;
+    width: 50px;
+    height: 50px;
+}
+
+.miniMenu ul {
+    display: none;
+    width: 50px;
+    list-style-type: none;
+    margin: 0;
+    background: #EEEFF1;
+}
+
+
+
+.miniMenu li{
+    background: #EEEFF1;
+    width: 100px;
+    padding: 20px 40px 20px 40px;
+}
+
+.miniMenu:hover ul{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a{
+    flex-wrap: nowrap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    margin: 21px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    transition: 1s;
+}
+
+.menu a:hover {
+    color: #34547A;
+}
+
+/* main */
+
+main {
+    width: 100%;
+    padding-top: 68px;
+}
+
+.advert {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 140px 0 140px 0;
+}
+.advertLeft img {
+    margin: 21px 0 21px 0;
+    width: 360px;
+    background-size: cover;
+}
+
+
+.advertRight {
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.advertRight h1{
+    font-family: 'Roboto';
+    font-size: 48px;
+    line-height: 78.75px;
+    text-align: left;
+    margin: 0;
+}
+
+.advertRightText {
+    text-align: left;
+    margin: 60px 0 60px 0;
+}
+.button {
+    background: #34547A;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 26.25px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+    border: none;
+    padding: 20px 40px 20px 40px;
+    transition: 1s;
+}
+.button:hover{
+    color: #EEEFF1;
+}
+
+
+.about {
+    background: white;
+    padding: 112px 0 112px 0;
+}
+.about h2 {
+    text-align: center;
+}
+.aboutText {
+    margin: auto;
+    width: 540px;
+    text-align: center;    
+}
+
+
+.advantages {
+    width: 100%;
+    background: #34547A;
+    padding: 100px 0 100px 0;
+}
+
+.advantagesCont {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.advantagesItem {
+    display: flex;
+    align-items: center;
+}
+.advantagesItem img {
+    width: auto;
+    height: 50px;
+    background-size: cover;
+    margin-right: 20px;
+}
+.advantagesItem h3 {
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 21px;
+    line-height: 24.61px;
+    text-align: left;
+    color: white;
+}
+.advantagesItemText {
+    font-family: 'Roboto';
+    font-size: 16px;
+    height: 15px;
+    line-height: 26.25px;
+    text-align: left;
+    color: white;
+}
+
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 0 100px 0;
+    background: white;
+}
+.skillsRight img {
+    margin: 21px 0 21px 0;
+    width: 555px;
+    height: 400px;
+}
+
+.skillsRight {
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skillsLeft h2{
+    text-align: left;
+}
+
+.skillsLeftText {
+    margin: 60px 0 60px 0;
+}
+
+.loadings {
+    width: 445px;
+    height: 4px;
+    margin: 20px 0 30px 0;
+    background: #C4C4C4;
+}
+
+.loadings div {
+    width: 349.36px;
+    height: 4px;
+    background: #34547A;
+    transform: rotate(-0.06deg);
+}
+
+
+.aboutWork {
+    padding: 100px 0 100px 0;
+}
+
+.aboutWorkText {
+    width: 540px;
+    margin: auto;
+    text-align: center;
+}
+
+.aboutWorkVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 600px;
+    margin: auto;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/video.jpg);
+    background-size: cover;
+}
+
+.aboutWorkVideo a {
+    width: 100px;
+    height: 100px;
+}
+
+.play {
+    width: 100px !important;
+}
+
+
+.projects {
+    background: white;
+    padding: 50px 0 50px 0;
+}
+
+.projectsFon {
+    background: #34547A;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.projectsFon a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectOne {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.projectOne + img {
+    position: absolute;
+    opacity: 0;
+    width: 100px;
+    height: 60px;
+}
+
+.projectTwo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.projectTwo + img {
+    position: absolute;
+    opacity: 0;
+    width: 100px;
+    height: 60px;
+}
+
+.projectOne:hover {
+    opacity: .5;
+}
+.projectTwo:hover {
+    opacity: .5;
+}
+.projectOne:hover + img{
+    opacity: 1 !important;
+    z-index: 998;
+}
+.projectTwo:hover + img{
+    opacity: 1 !important;
+    z-index: 998;
+}
+
+
+.clients {
+    width: 100%;
+    background: white;
+    padding: 22px 0 100px 0;
+}
+
+.clientsCont {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientsCont img {
+    padding: 5px;
+    width: 245px;
+}
+
+
+.form {
+    width: 100%;
+    padding: 100px 0 100px 0;
+}
+
+.formText {
+    width: 540px;
+    margin: auto;
+    text-align: center;
+}
+
+.form form {
+    width: 540px;
+    margin: auto;
+}
+
+.formInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.formInfo input{
+    border: none;
+    outline: none;
+    padding: 17px;
+    width: 47%;
+}
+
+.formMessage {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 17px;
+    height: 175px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 22.97px;
+    resize: none;
+}
+
+.formButton {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #34547A;
+    height: 150px;
+}
+
+.footerCont {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerCont h3 {
+    font-family: 'Roboto';
+    font-size: 21px;
+    line-height: 24.61px;
+    text-align: left;
+    color: white;
+}
+
+.footerText {
+    font-family: 'Roboto';
+    font-size: 13px;
+    line-height: 21.33px;
+    text-align: left;
+    color: white;
+}
+
+.social {
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+}
+.social > a > img {
+    width: 45px;
+    height: 40px;
+}
+
+@media screen and (max-width:1100px){
+    .menu a {
+        font-size: 13px;
+    }
+    .advert {
+        display: block;
+    }
+    .advertLeft {
+        display: flex;
+        justify-content: center;
+    }
+    .advertRight {
+        justify-content: center;
+        margin: auto;
+    }
+    .advertRight h1{
+        text-align: center;
+    }
+    .advantagesCont {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 90px 90px;
+        justify-items: center;
+    }
+    .skills {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .projectsFon {
+        grid-template-columns: 50% 50%;
+    }
+    .clientsCont {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .miniMenu {
+        display: inline;
+    }
+    .menu {
+        display: none;
+    }
+
+    .advert {
+        display: block;
+        margin: auto;
+        padding: 80px 0 80px 0;
+        width: 80%;
+    }
+    .advertLeft {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .advertRight {
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+    .advertRightText {
+        text-align: center !important;
+    }
+
+    .about {
+        padding: 10%;
+    }
+    .aboutText {
+        width: 100%;
+    }
+
+    .advantagesCont {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 90px 90px 90px;
+        justify-items: center;
+    }
+
+
+    .skills {
+        padding: 10%;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .skillsRight {
+        width: 100%;
+    }
+    .skills img {
+        width: 100%;
+        height: auto;
+    }
+        
+    .loadings {
+        width: 110%;
+        height: 4px;
+        margin: 20px 0 30px 0;
+        background: #C4C4C4;
+    }
+
+    .loadings div {
+        width: 80%;
+        height: 4px;
+        background: #34547A;
+        transform: rotate(-0.06deg);
+    }
+
+    .aboutWorkText {
+        width: 80%;
+    }
+    .aboutWorkVideo {
+        width: 100%;
+    }
+
+    .projectsFon {
+        grid-template-columns: 50% 50%;
+    }
+    .clientsCont {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .form form {
+        width: 80%;
+    }
+    .formText {
+        width: 80%;
+    }
+
+    footer {
+        display: block;
+        height: auto;
+    }
+    .footerCont {
+        padding: 50px;
+        margin: auto;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .social {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:500px){
+    body {
+        overflow-x: hidden;
+    }
+    .advertLeft img{
+        width: 100%;
+    }
+
+    .loadings {
+        width: 110%;
+        height: 4px;
+        margin: 20px 0 30px 0;
+        background: #C4C4C4;
+    }
+
+    .loadings div {
+        width: 80%;
+        height: 4px;
+        background: #34547A;
+        transform: rotate(-0.06deg);
+    }
+
+
+    .advantagesCont {
+        display: grid;
+        grid-template-columns: 60%;
+        grid-template-rows: repeat(6, 90px);
+        justify-items: center;
+    }
+
+    .projectsFon {
+        grid-template-columns: 100%;
+    }
+    
+}

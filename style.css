@@ -284,7 +284,7 @@ main {
     width: 60%;
     height: 600px;
     margin: auto;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/video.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(video.jpg);
     background-size: cover;
 }
 

@@ -52,14 +52,12 @@ h2 {
 }
 
 .miniMenu a {
+    background: #eeeff1;
     color: #727272;
     font-family: 'Roboto';
     font-size: 16px;
     line-height: 26.25px;
     transition: 1s;
-}
-.miniMenu a:hover {
-    color: #34547A;
 }
 
 .miniMenu:hover {
@@ -77,13 +75,11 @@ h2 {
     width: 50px;
     list-style-type: none;
     margin: 0;
-    background: #EEEFF1;
 }
 
 
 
 .miniMenu li{
-    background: #EEEFF1;
     width: 100px;
     padding: 20px 40px 20px 40px;
 }
@@ -108,11 +104,6 @@ h2 {
     margin: 21px;
     line-height: 26px;
     letter-spacing: 0.1em;
-    color: #000000;
-    transition: 1s;
-}
-
-.menu a:hover {
     color: #34547A;
 }
 
@@ -163,10 +154,6 @@ main {
     color: white;
     border: none;
     padding: 20px 40px 20px 40px;
-    transition: 1s;
-}
-.button:hover{
-    color: #EEEFF1;
 }
 
 
@@ -284,7 +271,7 @@ main {
     width: 60%;
     height: 600px;
     margin: auto;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(video.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/video.jpg);
     background-size: cover;
 }
 
@@ -566,13 +553,11 @@ footer {
         width: 110%;
         height: 4px;
         margin: 20px 0 30px 0;
-        background: #C4C4C4;
     }
 
     .loadings div {
         width: 80%;
         height: 4px;
-        background: #34547A;
         transform: rotate(-0.06deg);
     }
 
@@ -626,13 +611,11 @@ footer {
         width: 110%;
         height: 4px;
         margin: 20px 0 30px 0;
-        background: #C4C4C4;
     }
 
     .loadings div {
         width: 80%;
         height: 4px;
-        background: #34547A;
         transform: rotate(-0.06deg);
     }
 
@@ -648,4 +631,24 @@ footer {
         grid-template-columns: 100%;
     }
     
+}
+
+
+
+/* set Theme */
+
+
+.setTheme {
+    width: 100px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+#setDay {
+    width: 48px;
+    height: 48px;
+}
+#setNight {
+    width: 48px;
+    height: 48px;
 }

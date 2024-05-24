@@ -242,14 +242,14 @@ main {
 .loadings {
     width: 445px;
     height: 4px;
-    background: #34547A;
+    background: #C4C4C4;
     margin: 20px 0 30px 0;
 }
 
 .loadings div {
     width: 349.36px;
     height: 4px;
-    background: #C4C4C4;
+    background: #34547A;
     transform: rotate(-0.06deg);
 }
 

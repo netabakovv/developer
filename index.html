@@ -390,7 +390,6 @@
                     btn[i].style.background = elemColor
                 }
 
-                console.log('zaebal ti')
                 document.getElementsByClassName('about')[0].style.background = '#fff'
 
                 document.getElementsByClassName('advantages')[0].style.background = elemColor
@@ -407,8 +406,6 @@
         }
 
         let flag = localStorage.getItem('flagTheme')??'Day'
-        console.log(flag)
-        console.log(localStorage.getItem('flagTheme'))
         const setDay = document.getElementById('setDay')
         const setNight = document.getElementById('setNight')
         if (flag)

@@ -9,7 +9,7 @@ header {
     width: 100%;
     background: #eeeff1;
     position: fixed;
-    z-index: 999;
+    z-index: 998;
     left: 0;
     top: 0;
 }
@@ -242,8 +242,8 @@ main {
 .loadings {
     width: 445px;
     height: 4px;
-    background: #C4C4C4;
     margin: 20px 0 30px 0;
+    background: #C4C4C4;
 }
 
 .loadings div {
@@ -454,6 +454,17 @@ footer {
 .social > a > img {
     width: 45px;
     height: 40px;
+}
+
+.preloader{
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
 }
 
 @media screen and (max-width:1100px){
